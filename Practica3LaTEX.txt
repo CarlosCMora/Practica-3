@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Práctica3: Uso de los apuntadores.}
+\author{\huge{\texttt{Castañeda Mora Carlos\\\texttt{
+\huge{González Bretón Arturo\\\texttt{
+\huge{Sicilia Pablo}}}}}}}
+
+\date{25 febrero 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\justify
+Las estructuras son colecciones de variables relacionadas bajo un nombre.
+Las estructuras pueden contener variables de muchos tipos diferentes de datos
+- a diferencia de los arreglos que contienen unicamente elementos de un mismo
+tipo de datos.
+
+Las estructuras son tipos de datos derivados - est´an construidas utilizando
+objetos de otros tipos.
+La palabra reservada struct indica se est´a definiendo una estructura. El
+identificador ejemplo es el nombre de la estructura. Las variables declaradas
+dentro de las llaves de la definici´on de estructura son los miembros de la estructura. Los miembros de la misma estructura deben tener nombres ´unicos
+mientras que dos estructuras diferentes pueden tener miembros con el mismo
+nombre. Cada definici´on de estructura debe terminar con un punto y coma.
+La definici´on de struct ejemplo contiene un miembro de tipo char y otro
+de tipo int. Los miembros de una estructura pueden ser variables de los tipos
+de datos b´asicos (int, char, float,etc) o agregados como ser arreglos y otras
+estructuras. Una estructura no puede contener una instancia de si misma.
+
+\section{\huge{\textbf{Desarrollo}}}
+
+\paragraph{\Large{1) Archivo ,h donde declaramos la estructura de tipo matriz, además de las funciones que usará.\\}}
+\includegraphics[Width=11cm,height=8cm]{p3_matriz.png}
+
+
+\paragraph{\Large{2)Primera parte de un archivo que contiene a las funciones que ejecuta el programa. Se muestran funciones para crear una matriz, recibir el orden de una matriz, comprobar si se pueden multiplicar o sumar y llenar de datos una matriz.\\}}
+\includegraphics[Width=11cm,height=8cm]{p3_funciones.png}
+
+
+\paragraph{\Large{3)Segunda parte del archivo, se muestran las funciones para sumar matrices, multiplicar matrices e imprimir las matrices en pantalla.\\}}
+\includegraphics[Width=11cm,height=8cm]{p3_funciones_1.png}
+
+
+\paragraph{\Large{4) Primera parte del archivo principal, donde se eligen la opción a realizar, además se nuestra como se implementan las funciones.\\}}
+\includegraphics[Width=11cm,height=8cm]{p3_main_1.png}
+
+
+\paragraph{\Large{5)Segunda parte del archivo principal.\\}}
+\includegraphics[Width=11cm,height=8cm]{p3_main_0.png}
+
+
+\section{Conclusion}
+\justify
+
+Durante esta práctica aplicamos a un programa los tipos de datos definidos por el programador o estructuras, por lo que aprendimos que este tipo de dato nos brinda una gran facilidad para la organización sistemática de tipos de datos diferentes bajo un mismo nombre además de la sistematización de sus operaciones. Pablo
+
+
+
+En esta práctica trabajamos con apuntadores y estreucturas para elaborar una matriz y las operaciones básicas de esta. Se puede observar la utilidad de los apuntadroes para manejar la memoria y crear matrices tan grandes como se quiera. Carlos
+\section{Bibliografía}
+https://es.wikipedia.org/wiki/N%C3%BAcleo_Linux
+
+https://concepto.de/estructuras/
+
+https://www.fing.edu.uy/tecnoinf/mvd/cursos/prinprog/material/teo/prinprog-teorico08.pdf
+\end{document}
